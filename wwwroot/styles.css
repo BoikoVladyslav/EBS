@@ -1,0 +1,105 @@
+﻿body {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    padding-bottom: 80px;
+}
+
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+    border: none;
+}
+
+.card-header {
+    border-bottom: none;
+    padding: 1.5rem;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: none;
+    transition: transform 0.2s;
+}
+
+    .btn-primary:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+    }
+
+.btn-success {
+    background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+    border: none;
+}
+
+.btn-info {
+    background: linear-gradient(135deg, #2196F3 0%, #21CBF3 100%);
+    border: none;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #667eea;
+    box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);
+}
+
+.alert {
+    border-radius: 10px;
+    border: none;
+}
+
+.modal-content {
+    border-radius: 15px;
+    border: none;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.spinner-border {
+    width: 1rem;
+    height: 1rem;
+}
+
+code {
+    background: #f8f9fa;
+    padding: 2px 6px;
+    border-radius: 4px;
+    color: #e83e8c;
+}
+
+.table {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.badge {
+    padding: 0.5em 0.75em;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.card, .alert {
+    animation: fadeIn 0.5s ease-out;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .card {
+        border-radius: 0;
+    }
+}body {
+}
